@@ -4,7 +4,7 @@
 |------|----|-------|
 |name|string|null: false|
 
-###Association
+### Association
 - has_many :members
 - has_many :groups
 
@@ -16,7 +16,7 @@
 |text|text|null: false|
 |image|text|
 
-###Association
+### Association
 - belongs_to :member
 
 
@@ -28,7 +28,7 @@
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
-###Association
+### Association
 - belongs_to :group
 - belongs_to :user
 
